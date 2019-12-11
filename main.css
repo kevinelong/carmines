@@ -1,0 +1,222 @@
+body{
+    margin:0;
+    padding:0;
+    font: 2.5vw sans-serif;
+    background: #111111;
+    color:#eeeeee;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    max-height: 100vw;
+    background:url(bg.png);
+
+}
+body > * {
+    flex: 1 100%;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#header{
+    position:fixed;top:0;left:0;right:0;padding:0;
+    background:black;
+    z-index: 1000;
+    justify-content: space-between;
+    display:flex;
+    flex-basis: content;
+    background:url(bg.png);
+    opacity: 95%;
+    box-shadow: 0vw 0vw 1vh rgba(0, 0, 0, 0.9);
+
+}
+#logo-frame{
+    display:flex;
+    flex-basis: content;
+    flex-direction: column;
+    padding: 1vw 1vw;
+    color:antiquewhite;
+    text-align: center;
+}
+#logo{
+    font: 1.3em sans-serif;  text-align: center;
+}
+#subtitle{
+    font: 0.9em sans-serif;
+}
+#footer{
+    margin:0 auto;position:fixed;
+    bottom:0;left:0;right:0;
+    background: #111111;
+    color: #dddddd;
+    z-index: 1000;
+    background:url(bg.png);
+    opacity: 95%;
+    padding: 0.33em 0.33em;
+    box-shadow: 0vw 0vw 1vh rgba(0, 0, 0, 0.9);
+
+}
+#footer-copyright{
+    text-align: center; font: 0.8em sans-serif;
+}
+#footer-tag{
+    text-align: center; font: 1em sans-serif;
+}
+.banner-image{
+    background: black;
+}
+.banner-image img{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#order-button{
+    font: 1.3em sans-serif;
+    padding: 0.3em 0.6em;
+    background: darkred;
+    border: 0.1vw solid rgba(255,255,255,0.85);
+    display: inline-block;
+    color:#eeeeee;
+    margin:1vw 2vw;
+    box-shadow: 1vw 1vw 3vw rgba(0, 0, 0, 0.9);
+}
+#order-button-link{
+    display: inline-block;vertical-align: text-bottom;flex: border-box
+}
+#main{
+    flex: 2 0px;
+    background: #222222;
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 8vw;
+    vertical-align: top;
+
+}
+.menu-title{
+    font: 1.3em sans-serif;
+    padding: 1em;
+}
+.category-title{
+    font: 1.1em sans-serif;
+    letter-spacing: 1em;
+    text-indent: 1em;
+
+    text-transform: uppercase;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+}
+.choice-set-title{
+    font: 0.7em sans-serif;
+    margin-bottom: 1em;
+
+}
+.choices{
+    font: 0.5em sans-serif;
+    margin-bottom: 1em;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+    /*flex: 1 0 auto;*/
+
+    border: 1px solid rgba(255,255,255,0.25);
+    /*background: rgba(0,0,0,0.1);*/
+    padding: 0.75em;
+    margin: 0.75em;
+    display: inline-block;
+    /*min-width: 20vw;*/
+    /*max-width: 20vw;*/
+    /*min-height: 15vw;*/
+    vertical-align: top;
+}
+.product-title{
+    font: 0.95em sans-serif;
+    margin-bottom: 1em;
+}
+.product-description{
+    font: 0.6em sans-serif;
+    margin-bottom: 1em;
+}
+.arrow{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-bottom: 9px solid #eee;
+    border-right: 9px solid #eee;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 3s infinite;
+}
+/*.arrow span:nth-child(2){*/
+/*    animation-delay: -0.2s;*/
+/*}*/
+/*.arrow span:nth-child(3){*/
+/*    animation-delay: -0.4s;*/
+/*}*/
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+@media all and (min-width: 1em) {
+    .product {
+        width: 90%;
+        font: 1.6em sans-serif;
+    }
+    .category-title {
+        font: 1.8em sans-serif;
+    }
+}
+
+
+@media all and (min-width: 1024px) {
+    .product {
+        width: 33%;
+        font: 1.2em sans-serif;
+    }
+    .category-title {
+        font: 1.4em sans-serif;
+    }
+}
+
+
+@media all and (min-width: 1366px) {
+    .product {
+        width: 22%;
+        font: 1em sans-serif;
+    }
+    .category-title {
+        font: 1.2em sans-serif;
+    }
+}
+@media all and (min-width: 1600px) {
+    .product {
+        width: 18%;
+        font: 0.5em sans-serif;
+    }
+    .category-title {
+        font: 1.1em sans-serif;
+    }
+}

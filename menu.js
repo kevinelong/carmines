@@ -1,9 +1,9 @@
-{
+let MenuData = {
   "title": "Carmine’s Italian",
   "description": "Portland's Best Italian Food Delivery!",
-  "choice-sets": [
+  "choice-sets": {
+    "dressing":
     {
-      "id": "dressing",
       "title": "Choice of Dressing:",
       "choices": [
         {
@@ -17,6 +17,7 @@
         }
       ]
     },
+    "pasta":
     {
       "id": "pasta",
       "title": "Choice of Pasta:",
@@ -32,12 +33,12 @@
         },
         {
           "title": "Ravioli",
-          "price": "3"
+          "price": "3.00"
         }
       ]
     },
+    "sauce":
     {
-      "id": "sauce",
       "title": "Choice of Sauce:",
       "choices": [
         {
@@ -52,41 +53,38 @@
         {
           "title": "Bolognese",
           "description": "(Classic meat red sauce)",
-          "price": 2
+          "price": "2.00"
         },
         {
           "title": "Carbonara",
           "description": "(Rich cream sauce with bacon, garlic and English peas)",
-          "price": 2
+          "price": "2.00"
         },
         {
           "title": "White Bean and Sausage",
           "description": "(Ragu of slow cooked white beans, Italian sausage, fresh herbs and onions)",
-          "price": 2
+          "price": "2.00"
         },
         {
           "title": "Smoked Tomato and Goat Cheese",
           "description": "(House smoked tomato sauce with fresh basil and goat cheese)",
-          "price": 2
+          "price": "2.00"
         }
       ]
     },
+    "pasta_add_ons":
     {
-      "id": "pasta_add_ons",
       "title": "Add Ons:",
       "choices": [
         {
-          "title": "None"
-        },
-        {
           "title": "Meatballs",
-          "price": 3
+          "price": "3.00"
         }
       ]
     },
+    "dessert_compote":
     {
-      "id": "dessert_compote",
-      "title": "Compote:",
+      "title": "Compote Choices:",
       "choices": [
         {
           "title": "Blackberry"
@@ -96,8 +94,8 @@
         }
       ]
     },
+    "crust":
     {
-      "id": "pizza_crust",
       "title": "Choose Your Own Crust:",
       "choices": [
         {
@@ -114,10 +112,10 @@
         }
       ]
     },
+    "ingredients":
     {
-      "id": "ingredients",
       "title": "Ingredienti Choices:",
-      "price": 2,
+      "price": "2.00",
       "limit": 3,
       "choices": [
         {"title": "Pepperoni"},
@@ -144,162 +142,162 @@
       ]
     }
 
-  ],
+  },
   "categories": [
     {
       "id": "salad",
-      "title": "SALAD (ALL LARGE)",
-      "category_choices": [
+      "title": "SALAD",
+      "description":"All Large",
+      "choices": [
         "dressing"
+      ],
+      "products": [
+        {
+          "title": "Caesar",
+          "description": "(Classic Caesar with garlic & anchovy dressing, romaine lettuce and toasted crouton)",
+          "price": "10.00"
+        },
+        {
+          "title": "Italian Garden",
+          "description": "(Mixed greens, pickled red onions, tomatoes, black olives, cucumbers and a house red vinaigrette)",
+          "price": "10.00"
+        },
+        {
+          "title": "Panzanella with Spinach",
+          "description": "(Toasted bread salad, with tomato red wine vinaigrette, pickled red onion, artichoke hearts, crispy pepperoni, parmesan cheese and pesto)",
+          "price": "10.00"
+        }
       ]
     },
     {
       "id": "soup",
-      "title": "Soup"
+      "title": "Soup",
+      "products": [
+        {
+          "title": "Made from Scratch Authentic Minestrone (16 oz)",
+          "description": "(Hearty broth with sausage and vegetables)",
+          "price": "7.00"
+        }
+      ]
     },
     {
       "id": "bread",
-      "title": "Bread"
+      "title": "Bread",
+      "products": [
+        {
+          "title": "House Garlic Bread",
+          "price": "4.00"
+        },
+        {
+          "title": "House Garlic Bread with Cheese",
+          "price": "5.00"
+        },
+        {
+          "title": "House Garlic Bread with Cheese and Scratch Pesto",
+          "price": "6.00"
+        }
+      ]
     },
     {
       "id": "pasta",
       "title": "Pasta for Two",
-      "category_choices": [
+      "choices": [
         "pasta",
         "sauce",
         "pasta_add_ons"
+      ],
+      "products": [
+        {
+          "title": "Your Choice of Pasta and Sauce",
+          "price": "12.00"
+        }
       ]
     },
     {
       "id": "pizza",
       "title": "PIZZA",
-      "category_choices": [
+      "choices": [
         "crust"
-      ]
-    },
-    {
-      "id": "dessert",
-      "title": "DESSERT"
-    }
-  ],
-  "products_by_category": [
-    {
-      "category_id": "salad",
+      ],
       "products": [
         {
-          "title": "Caesar",
-          "description": "(Classic Caesar with garlic & anchovy dressing, romaine lettuce and toasted crouton)",
-          "price": "10"
-        },
-        {
-          "title": "Italian Garden",
-          "description": "(Mixed greens, pickled red onions, tomatoes, black olives, cucumbers and a house red vinaigrette)",
-          "price": "10"
-        },
-        {
-          "title": "Panzanella with Spinach",
-          "description": "(Toasted bread salad, with tomato red wine vinaigrette, pickled red onion, artichoke hearts, crispy pepperoni, parmesan cheese and pesto)",
-          "price": "10"
-        }
-      ]
-    },
-    {
-      "category_id": "soup",
-      "products": [
-        {
-          "title": "Made from Scratch Authentic Minestrone (16 oz)",
-          "description": "(Hearty broth with sausage and vegetables)",
-          "price": "7"
-        }
-      ]
-    },
-    {
-      "category_id": "pasta",
-      "products": [
-        {
-          "title": "Your Choice of Pasta and Sauce",
-          "price": "12"
-        }
-      ]
-    },
-    {
-      "category_id": "pizza",
-      "products": [
-        {
-          "title": "House Cheese",
-          "price": "21"
+          "title": "House Cheese Pizza",
+          "description":"",
+          "price": "21.00"
         },
         {
           "title": "125 Pepperoni Pizza",
-          "price": "23"
+          "description":"",
+          "price": "23.00"
         },
         {
           "title": "Hawaiian",
           "description": "(Pineapple & Ham)",
-          "price": "25"
+          "price": "25.00"
         },
         {
           "title": "Margherita",
           "description": "(Tomato base, fresh mozzarella, basil, dash of olive oil)",
-          "price": "25"
+          "price": "25.00"
         },
         {
           "title": "Italian Garden",
           "description": "(Tomato base, roasted broccoli, artichoke hearts, mushrooms, garlic cloves, roasted peppers, mozzarella)",
-          "price": "28"
+          "price": "28.00"
         },
         {
           "title": "Meat Lovers",
           "description": "(Tomato base, pepperoni, sausage, meatballs, bacon, ham, mozzarella)",
-          "price": "28"
+          "price": "28.00"
         },
         {
           "title": "Sausage Pepper Onion",
           "description": "(Tomato base, roasted Italian sausage, roasted peppers, red onion, mozzarella)",
-          "price": "27"
+          "price": "27.00"
         },
         {
           "title": "Bacon Garlic Arugula",
           "description": "(Garlic cream base, roasted bacon, arugula, white truffle oil, mozzarella)",
-          "price": "27"
+          "price": "27.00"
         },
         {
           "title": "Blackened Chicken",
           "description": "(Garlic cream base, house blackened chicken, roasted bacon, red onion, mozzarella)",
-          "price": "27"
+          "price": "27.00"
         },
         {
           "title": "Lamb Sausage",
           "description": "(Garlic cream base, Mediterranean lamb sausage, fresh herb blend, pickled red onion, black olives, feta cheese, mozzarella)",
-          "price": "27"
+          "price": "27.00"
         },
         {
           "title": "Tre Ingredienti (pick three toppings)",
           "description": "(Garlic cream base, Mediterranean lamb sausage, fresh herb blend, pickled red onion, black olives, feta cheese, mozzarella)",
-          "price": "21",
+          "price": "21.00",
           "options": ["ingredients"]
         }
       ]
     },
     {
-      "category_id": "dessert",
+      "id": "dessert",
+      "title": "DESSERT",
       "products": [
         {
           "title": "Slice of classic New York Cheesecake with Choice of Compote",
-          "choices" : ["dessert_compote"],
+          "choices": ["dessert_compote"],
           "price": "7.5"
         },
         {
           "title": "Two Large Cannoli with Sweet Mascarpone and Creme Anglaise",
-          "description" : "(Crispy cookie stuffed with sweetened ricotta and mascarpone cheese,\nchocolate and crepe sauce)",
-          "price": "7.5"
+          "description": "(Crispy cookie stuffed with sweetened ricotta and mascarpone cheese, chocolate and crepe sauce)",
+          "price": "7.50"
         },
         {
           "title": "Large Bread Pudding with Bourbon Caramel and Creme Anglaise",
-          "description" : "(Sweetened baked custard with a rich bourbon caramel sauce)",
-          "price": "7.5"
+          "description": "(Sweetened baked custard with a rich bourbon caramel sauce)",
+          "price": "7.50"
         }
       ]
     }
-    ]
-}
+  ]
+};

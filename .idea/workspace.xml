@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f3177ae-7550-42de-9e0c-ea60f7fd56fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/menu.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UfuYMZ2sCPnExiHfdYmujZP59I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f3177ae-7550-42de-9e0c-ea60f7fd56fe" name="Default Changelist" comment="" />
+      <created>1575760016888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575760016888</updated>
+      <workItem from="1575760018260" duration="35367000" />
+      <workItem from="1575911559689" duration="133000" />
+      <workItem from="1575912383403" duration="6863000" />
+      <workItem from="1576020692822" duration="1374000" />
+      <workItem from="1576033670238" duration="137000" />
+      <workItem from="1576033825858" duration="1288000" />
+      <workItem from="1576035468537" duration="116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="205" key="#Options" timestamp="1576035583132">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="205" key="#Options/0.0.1920.1080@0.0.1920.1080" timestamp="1576035583132" />
+    <state x="648" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576033736514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="648" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576033736514" />
+    <state x="574" y="325" key="EditFileWatcherDialog" timestamp="1576034300325">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="574" y="325" key="EditFileWatcherDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576034300325" />
+    <state x="585" y="350" width="270" height="270" key="Github.ShareDialog" timestamp="1576029999656">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="585" y="350" width="270" height="270" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1576029999656" />
+    <state x="511" y="163" key="Github.UntrackedFilesDialog" timestamp="1576030015953">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="511" y="163" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1576030015953" />
+    <state x="461" y="179" key="SettingsEditor" timestamp="1576033653162">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1576033653162" />
+    <state x="529" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1576035471057">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="529" y="334" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576033830874" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1575912393094" />
+    <state x="529" y="334" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1576035471057" />
+    <state x="1962" y="519" width="710" height="293" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1575922757403">
+      <screen x="1440" y="-157" width="3008" height="1669" />
+    </state>
+    <state x="1962" y="519" width="710" height="293" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1440.877/1440.-157.3008.1669@1440.-157.3008.1669" timestamp="1575922757403" />
+  </component>
+</project>
