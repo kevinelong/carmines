@@ -1,0 +1,305 @@
+{
+  "title": "Carmine’s Italian",
+  "description": "Portland's Best Italian Food Delivery!",
+  "choice-sets": [
+    {
+      "id": "dressing",
+      "title": "Choice of Dressing:",
+      "choices": [
+        {
+          "title": "Caesar"
+        },
+        {
+          "title": "Red Wine Vinaigrette"
+        },
+        {
+          "title": "Balsamic Vinaigrette"
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "title": "Choice of Pasta:",
+      "choices": [
+        {
+          "title": "Spaghetti"
+        },
+        {
+          "title": "Penne"
+        },
+        {
+          "title": "Cavatappi"
+        },
+        {
+          "title": "Ravioli",
+          "price": "3"
+        }
+      ]
+    },
+    {
+      "id": "sauce",
+      "title": "Choice of Sauce:",
+      "choices": [
+        {
+          "title": "Red Sauce",
+          "description": "(Classic red sauce)",
+          "choices": "pasta_add_ons"
+        },
+        {
+          "title": "Primavera",
+          "description": "(A light, white wine butter sauce finished with Parmesan Reggiano and a squeeze of lemon)"
+        },
+        {
+          "title": "Bolognese",
+          "description": "(Classic meat red sauce)",
+          "price": 2
+        },
+        {
+          "title": "Carbonara",
+          "description": "(Rich cream sauce with bacon, garlic and English peas)",
+          "price": 2
+        },
+        {
+          "title": "White Bean and Sausage",
+          "description": "(Ragu of slow cooked white beans, Italian sausage, fresh herbs and onions)",
+          "price": 2
+        },
+        {
+          "title": "Smoked Tomato and Goat Cheese",
+          "description": "(House smoked tomato sauce with fresh basil and goat cheese)",
+          "price": 2
+        }
+      ]
+    },
+    {
+      "id": "pasta_add_ons",
+      "title": "Add Ons:",
+      "choices": [
+        {
+          "title": "None"
+        },
+        {
+          "title": "Meatballs",
+          "price": 3
+        }
+      ]
+    },
+    {
+      "id": "dessert_compote",
+      "title": "Compote:",
+      "choices": [
+        {
+          "title": "Blackberry"
+        },
+        {
+          "title": "Strawberry"
+        }
+      ]
+    },
+    {
+      "id": "pizza_crust",
+      "title": "Choose Your Own Crust:",
+      "choices": [
+        {
+          "title": "Everything Bagel"
+        },
+        {
+          "title": "Parmesan Cornmeal"
+        },
+        {
+          "title": "Smoked Salt"
+        },
+        {
+          "title": "Italian Herb Blend"
+        }
+      ]
+    },
+    {
+      "id": "ingredients",
+      "title": "Ingredienti Choices:",
+      "price": 2,
+      "limit": 3,
+      "choices": [
+        {"title": "Pepperoni"},
+        {"title": "Italian Sausage"},
+        {"title": "Ham"},
+        {"title": "Bacon"},
+        {"title": "Blackened Chicken"},
+        {"title": "Smoked Chicken"},
+        {"title": "Lamb Sausage Meatball"},
+        {"title": "Artichoke Heart"},
+        {"title": "Arugula"},
+        {"title": "Fresh Basil"},
+        {"title": "Broccoli"},
+        {"title": "Spinach"},
+        {"title": "Roasted Red Pepper"},
+        {"title": "Mushroom"},
+        {"title": "Olive"},
+        {"title": "Pineapple"},
+        {"title": "Red Onion"},
+        {"title": "Garlic"},
+        {"title": "Chevre"},
+        {"title": "Feta"},
+        {"title": "Fresh Mozzarella"}
+      ]
+    }
+
+  ],
+  "categories": [
+    {
+      "id": "salad",
+      "title": "SALAD (ALL LARGE)",
+      "category_choices": [
+        "dressing"
+      ]
+    },
+    {
+      "id": "soup",
+      "title": "Soup"
+    },
+    {
+      "id": "bread",
+      "title": "Bread"
+    },
+    {
+      "id": "pasta",
+      "title": "Pasta for Two",
+      "category_choices": [
+        "pasta",
+        "sauce",
+        "pasta_add_ons"
+      ]
+    },
+    {
+      "id": "pizza",
+      "title": "PIZZA",
+      "category_choices": [
+        "crust"
+      ]
+    },
+    {
+      "id": "dessert",
+      "title": "DESSERT"
+    }
+  ],
+  "products_by_category": [
+    {
+      "category_id": "salad",
+      "products": [
+        {
+          "title": "Caesar",
+          "description": "(Classic Caesar with garlic & anchovy dressing, romaine lettuce and toasted crouton)",
+          "price": "10"
+        },
+        {
+          "title": "Italian Garden",
+          "description": "(Mixed greens, pickled red onions, tomatoes, black olives, cucumbers and a house red vinaigrette)",
+          "price": "10"
+        },
+        {
+          "title": "Panzanella with Spinach",
+          "description": "(Toasted bread salad, with tomato red wine vinaigrette, pickled red onion, artichoke hearts, crispy pepperoni, parmesan cheese and pesto)",
+          "price": "10"
+        }
+      ]
+    },
+    {
+      "category_id": "soup",
+      "products": [
+        {
+          "title": "Made from Scratch Authentic Minestrone (16 oz)",
+          "description": "(Hearty broth with sausage and vegetables)",
+          "price": "7"
+        }
+      ]
+    },
+    {
+      "category_id": "pasta",
+      "products": [
+        {
+          "title": "Your Choice of Pasta and Sauce",
+          "price": "12"
+        }
+      ]
+    },
+    {
+      "category_id": "pizza",
+      "products": [
+        {
+          "title": "House Cheese",
+          "price": "21"
+        },
+        {
+          "title": "125 Pepperoni Pizza",
+          "price": "23"
+        },
+        {
+          "title": "Hawaiian",
+          "description": "(Pineapple & Ham)",
+          "price": "25"
+        },
+        {
+          "title": "Margherita",
+          "description": "(Tomato base, fresh mozzarella, basil, dash of olive oil)",
+          "price": "25"
+        },
+        {
+          "title": "Italian Garden",
+          "description": "(Tomato base, roasted broccoli, artichoke hearts, mushrooms, garlic cloves, roasted peppers, mozzarella)",
+          "price": "28"
+        },
+        {
+          "title": "Meat Lovers",
+          "description": "(Tomato base, pepperoni, sausage, meatballs, bacon, ham, mozzarella)",
+          "price": "28"
+        },
+        {
+          "title": "Sausage Pepper Onion",
+          "description": "(Tomato base, roasted Italian sausage, roasted peppers, red onion, mozzarella)",
+          "price": "27"
+        },
+        {
+          "title": "Bacon Garlic Arugula",
+          "description": "(Garlic cream base, roasted bacon, arugula, white truffle oil, mozzarella)",
+          "price": "27"
+        },
+        {
+          "title": "Blackened Chicken",
+          "description": "(Garlic cream base, house blackened chicken, roasted bacon, red onion, mozzarella)",
+          "price": "27"
+        },
+        {
+          "title": "Lamb Sausage",
+          "description": "(Garlic cream base, Mediterranean lamb sausage, fresh herb blend, pickled red onion, black olives, feta cheese, mozzarella)",
+          "price": "27"
+        },
+        {
+          "title": "Tre Ingredienti (pick three toppings)",
+          "description": "(Garlic cream base, Mediterranean lamb sausage, fresh herb blend, pickled red onion, black olives, feta cheese, mozzarella)",
+          "price": "21",
+          "options": ["ingredients"]
+        }
+      ]
+    },
+    {
+      "category_id": "dessert",
+      "products": [
+        {
+          "title": "Slice of classic New York Cheesecake with Choice of Compote",
+          "choices" : ["dessert_compote"],
+          "price": "7.5"
+        },
+        {
+          "title": "Two Large Cannoli with Sweet Mascarpone and Creme Anglaise",
+          "description" : "(Crispy cookie stuffed with sweetened ricotta and mascarpone cheese,\nchocolate and crepe sauce)",
+          "price": "7.5"
+        },
+        {
+          "title": "Large Bread Pudding with Bourbon Caramel and Creme Anglaise",
+          "description" : "(Sweetened baked custard with a rich bourbon caramel sauce)",
+          "price": "7.5"
+        }
+      ]
+    }
+    ]
+}

@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carmine's Portland Italian Restaurant Delivery - Pizza, Pasta & Desserts</title>
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font: 2.5vw sans-serif;
+            background: #111111;
+            color:#eeeeee;
+            display: flex;
+            flex-direction: column;
+            max-width: 100vw;
+            max-height: 100vw;
+            background:url(bg.png);
+
+        }
+        body > * {
+            flex: 1 100%;
+        }
+        .vertical-center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        #header{
+            position:fixed;top:0;left:0;right:0;padding:0;
+            background:black;
+            z-index: 1000;
+            justify-content: space-between;
+            display:flex;
+            flex-basis: content;
+            background:url(bg.png);
+            opacity: 95%;
+            box-shadow: 0vw 0vw 1vh rgba(0, 0, 0, 0.9);
+
+        }
+        #logo-frame{
+            display:flex;
+            flex-basis: content;
+            flex-direction: column;
+            padding: 1vw 1vw;
+            color:antiquewhite;
+            text-align: center;
+        }
+        #logo{
+            font: 1.3em sans-serif;  text-align: center;
+        }
+        #subtitle{
+            font: 0.9em sans-serif;
+        }
+        #footer{
+            margin:0 auto;position:fixed;
+            bottom:0;left:0;right:0;
+            background: #111111;
+            color: #dddddd;
+            z-index: 1000;
+            background:url(bg.png);
+            opacity: 95%;
+            padding: 0.33em 0.33em;
+            box-shadow: 0vw 0vw 1vh rgba(0, 0, 0, 0.9);
+
+        }
+        #footer-copyright{
+            text-align: center; font: 0.8em sans-serif;
+        }
+        #footer-tag{
+            text-align: center; font: 1em sans-serif;
+        }
+        .banner-image{
+            background: black;
+        }
+        .banner-image img{
+            object-fit: cover;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #order-button{
+            font: 1.3em sans-serif;
+            padding: 0.3em 0.6em;
+            background: darkred;
+            border: 0.1vw solid rgba(255,255,255,0.85);
+            display: inline-block;
+            color:#eeeeee;
+            margin:1vw 2vw;
+            box-shadow: 1vw 1vw 3vw rgba(0, 0, 0, 0.9);
+        }
+        #order-button-link{
+            display: inline-block;vertical-align: text-bottom;flex: border-box
+        }
+        #main{
+            flex: 2 0px;
+            background: #222222;
+            text-align: center;
+            color: antiquewhite;
+            margin-bottom: 8vw;
+            vertical-align: top;
+
+        }
+        .menu-title{
+            font: 1.3em sans-serif;
+            padding: 1em;
+        }
+        .category-title{
+            font: 1.1em sans-serif;
+            letter-spacing: 1em;
+            text-indent: 1em;
+
+            text-transform: uppercase;
+            border-bottom: 1px solid #cccccc;
+            border-top: 1px solid #cccccc;
+        }
+        .choice-set-title{
+            font: 0.7em sans-serif;
+            margin-bottom: 1em;
+
+        }
+        .choices{
+            font: 0.5em sans-serif;
+            margin-bottom: 1em;
+        }
+        .category{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product{
+            /*flex: 1 0 auto;*/
+
+            border: 1px solid rgba(255,255,255,0.25);
+            /*background: rgba(0,0,0,0.1);*/
+            padding: 0.75em;
+            margin: 0.75em;
+            display: inline-block;
+            /*min-width: 20vw;*/
+            /*max-width: 20vw;*/
+            /*min-height: 15vw;*/
+            vertical-align: top;
+        }
+        .product-title{
+            font: 0.95em sans-serif;
+            margin-bottom: 1em;
+        }
+        .product-description{
+            font: 0.6em sans-serif;
+            margin-bottom: 1em;
+        }
+        .arrow{
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .arrow span{
+            display: block;
+            width: 36px;
+            height: 36px;
+            border-bottom: 9px solid #eee;
+            border-right: 9px solid #eee;
+            transform: rotate(45deg);
+            margin: -10px;
+            animation: animate 3s infinite;
+        }
+        /*.arrow span:nth-child(2){*/
+        /*    animation-delay: -0.2s;*/
+        /*}*/
+        /*.arrow span:nth-child(3){*/
+        /*    animation-delay: -0.4s;*/
+        /*}*/
+        @keyframes animate {
+            0%{
+                opacity: 0;
+                transform: rotate(45deg) translate(-20px,-20px);
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+                transform: rotate(45deg) translate(20px,20px);
+            }
+        }
+
+        @media all and (min-width: 1em) {
+            .product {
+                width: 90%;
+                font: 1.6em sans-serif;
+            }
+            .category-title {
+                font: 1.8em sans-serif;
+            }
+        }
+
+
+        @media all and (min-width: 1024px) {
+            .product {
+                width: 33%;
+                font: 1.2em sans-serif;
+            }
+            .category-title {
+                font: 1.4em sans-serif;
+            }
+        }
+
+
+        @media all and (min-width: 1366px) {
+            .product {
+                width: 22%;
+                font: 1em sans-serif;
+            }
+            .category-title {
+                font: 1.2em sans-serif;
+            }
+        }
+        @media all and (min-width: 1600px) {
+            .product {
+                width: 18%;
+                font: 0.5em sans-serif;
+            }
+            .category-title {
+                font: 1.1em sans-serif;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div id="header">
+    <head>
+        <div id="logo-frame">
+            <div id="logo">C&nbsp;&nbsp;A&nbsp;&nbsp;R&nbsp;&nbsp;M&nbsp;&nbsp;I&nbsp;&nbsp;N&nbsp;&nbsp;E&nbsp;&nbsp;'&nbsp;&nbsp;S</div>
+            <div id="subtitle">Pizza, Pasta & Desserts To Go!</div>
+        </div>
+        <a id="order-button-link" href="https://grubhub.com" >
+            <div id="order-button" style="">
+ORDER ONLINE!
+            </div>
+        </a>
+    </head>
+</div>
+<div id="main">
+    <main>
+        <div class="banner-image">
+            <img src="banner-02.jpg">
+        </div>
+        <div class="arrow">
+            <span></span>
+            <span></span>
+<!--            <span></span>-->
+        </div>
+        <div id="menu"></div>
+    </main>
+</div>
+<div id="footer">
+    <footer>
+        <div id="footer-tag">
+            Portland's Best Italian Food Delivery!
+        </div>
+        <div id="footer-copyright">
+            &copy;2020
+        </div>
+    </footer>
+</div>
+</body>
+<script>
+
+    /**
+     * @return {string}
+     */
+    function Element(tag, attributes, content, closed){
+        let isClosed = closed ? closed : true;
+        let closing = isClosed ? `</${tag}>` : "";
+        return `<${tag}>${content}${closing}`;
+    }
+
+    /**
+     * @return {string}
+     */
+    function Categories(menuData) {
+        let categories = menuData["categories"];
+        let length = categories.length;
+        let output = [];
+        for(let i = 0; i < length; i++)    {
+            output.push(Category(menuData, categories[i]));
+        }
+        return `
+            <div class="categories">
+            <div class="menu-title">${menuData.title}</div>
+            ${output.join("\n")}
+            </div>
+        `;
+    }
+
+    /**
+     * @return {string}
+     */
+    function Category(menuData, category){
+        let products = category.products;
+        let length = products ? products.length : 0;
+        let output = [];
+        for(let i = 0; i < length; i++)    {
+            var product = products[i];
+            if (category.choices) {
+                if (product.choices ){
+                    for(let cc = 0; cc < length; cc++) {
+                        product.choices.push(category.choices[cc])
+                    }
+                }else{
+                    product.choices = category.choices
+                }
+            }
+            output.push(Product(menuData, product));
+        }
+        return `
+<div class="category-title">${category.title}</div>
+<div class="category">
+${output.join("\n")}
+</div>
+`;    }
+
+    /**
+     * @return {string}
+     */
+    function Product(menuData, product){
+        let choiceSets = product.choices;
+        let length = choiceSets ? choiceSets.length : 0;
+        let output = [];
+        for(let i = 0; i < length; i++)    {
+            output.push(ChoiceSet(menuData, choiceSets[i]));
+        }
+        return `
+<div class="product">
+<div class="product-title">${product.title}</div>
+<div class="product-description">${Description(product)}</div>
+${output.length ? output.join("\n") : ""}
+<div class="price">${Price(product)}</div>
+</div>
+`;
+    }
+
+    /**
+     * @return {string}
+     */
+    function ChoiceSet(menuData, choiceSet){
+        let theSet = menuData["choice-sets"][choiceSet];
+        let choices = theSet.choices;
+        let length = choices ? choices.length : 0;
+        let output = [];
+        for(let i = 0; i < length; i++)    {
+            output.push(Choice(menuData, choices[i]));
+        }
+        return `
+        <div class="choice-set-title">${theSet.title}</div>
+        <div class="choices">${output.join("<br>")}</div>
+`;
+    }
+
+    /**
+     * @return {string}
+     */
+    function Description(item){
+        return item.description ? `${item.description}<br>` : ""
+    }
+
+    /**
+     * @return {string}
+     */
+    function Price(item){
+        return item.price ? `${item.price}<br>` : ""
+    }
+
+    /**
+     * @return {string}
+     */
+    function Choice(menuData, choice){
+        return `&#8226;&nbsp;${choice.title}` + (choice.price ? `&nbsp;for&nbsp;+$${choice.price}` : "")
+    }
+
+    let MenuData = {
+        "title": "Carmine’s Italian",
+        "description": "Portland's Best Italian Food Delivery!",
+        "choice-sets": {
+            "dressing":
+                {
+                    "title": "Choice of Dressing:",
+                    "choices": [
+                        {
+                            "title": "Caesar"
+                        },
+                        {
+                            "title": "Red Wine Vinaigrette"
+                        },
+                        {
+                            "title": "Balsamic Vinaigrette"
+                        }
+                    ]
+                },
+            "pasta":
+                {
+                    "id": "pasta",
+                    "title": "Choice of Pasta:",
+                    "choices": [
+                        {
+                            "title": "Spaghetti"
+                        },
+                        {
+                            "title": "Penne"
+                        },
+                        {
+                            "title": "Cavatappi"
+                        },
+                        {
+                            "title": "Ravioli",
+                            "price": "3"
+                        }
+                    ]
+                },
+            "sauce":
+                {
+                    "title": "Choice of Sauce:",
+                    "choices": [
+                        {
+                            "title": "Red Sauce",
+                            "description": "(Classic red sauce)",
+                            "choices": "pasta_add_ons"
+                        },
+                        {
+                            "title": "Primavera",
+                            "description": "(A light, white wine butter sauce finished with Parmesan Reggiano and a squeeze of lemon)"
+                        },
+                        {
+                            "title": "Bolognese",
+                            "description": "(Classic meat red sauce)",
+                            "price": 2
+                        },
+                        {
+                            "title": "Carbonara",
+                            "description": "(Rich cream sauce with bacon, garlic and English peas)",
+                            "price": 2
+                        },
+                        {
+                            "title": "White Bean and Sausage",
+                            "description": "(Ragu of slow cooked white beans, Italian sausage, fresh herbs and onions)",
+                            "price": 2
+                        },
+                        {
+                            "title": "Smoked Tomato and Goat Cheese",
+                            "description": "(House smoked tomato sauce with fresh basil and goat cheese)",
+                            "price": 2
+                        }
+                    ]
+                },
+            "pasta_add_ons":
+                {
+                    "title": "Add Ons:",
+                    "choices": [
+                        {
+                            "title": "Meatballs",
+                            "price": 3
+                        }
+                    ]
+                },
+            "dessert_compote":
+                {
+                    "title": "Compote Choices:",
+                    "choices": [
+                        {
+                            "title": "Blackberry"
+                        },
+                        {
+                            "title": "Strawberry"
+                        }
+                    ]
+                },
+            "crust":
+                {
+                    "title": "Choose Your Own Crust:",
+                    "choices": [
+                        {
+                            "title": "Everything Bagel"
+                        },
+                        {
+                            "title": "Parmesan Cornmeal"
+                        },
+                        {
+                            "title": "Smoked Salt"
+                        },
+                        {
+                            "title": "Italian Herb Blend"
+                        }
+                    ]
+                },
+            "ingredients":
+                {
+                    "title": "Ingredienti Choices:",
+                    "price": 2,
+                    "limit": 3,
+                    "choices": [
+                        {"title": "Pepperoni"},
+                        {"title": "Italian Sausage"},
+                        {"title": "Ham"},
+                        {"title": "Bacon"},
+                        {"title": "Blackened Chicken"},
+                        {"title": "Smoked Chicken"},
+                        {"title": "Lamb Sausage Meatball"},
+                        {"title": "Artichoke Heart"},
+                        {"title": "Arugula"},
+                        {"title": "Fresh Basil"},
+                        {"title": "Broccoli"},
+                        {"title": "Spinach"},
+                        {"title": "Roasted Red Pepper"},
+                        {"title": "Mushroom"},
+                        {"title": "Olive"},
+                        {"title": "Pineapple"},
+                        {"title": "Red Onion"},
+                        {"title": "Garlic"},
+                        {"title": "Chevre"},
+                        {"title": "Feta"},
+                        {"title": "Fresh Mozzarella"}
+                    ]
+                }
+
+        },
+        "categories": [
+            {
+                "id": "salad",
+                "title": "SALAD",
+                "description":"All Large",
+                "choices": [
+                    "dressing"
+                ],
+                "products": [
+                    {
+                        "title": "Caesar",
+                        "description": "(Classic Caesar with garlic & anchovy dressing, romaine lettuce and toasted crouton)",
+                        "price": "10"
+                    },
+                    {
+                        "title": "Italian Garden",
+                        "description": "(Mixed greens, pickled red onions, tomatoes, black olives, cucumbers and a house red vinaigrette)",
+                        "price": "10"
+                    },
+                    {
+                        "title": "Panzanella with Spinach",
+                        "description": "(Toasted bread salad, with tomato red wine vinaigrette, pickled red onion, artichoke hearts, crispy pepperoni, parmesan cheese and pesto)",
+                        "price": "10"
+                    }
+                ]
+            },
+            {
+                "id": "soup",
+                "title": "Soup",
+                "products": [
+                    {
+                        "title": "Made from Scratch Authentic Minestrone (16 oz)",
+                        "description": "(Hearty broth with sausage and vegetables)",
+                        "price": "7"
+                    }
+                ]
+            },
+            {
+                "id": "bread",
+                "title": "Bread",
+                "products": [
+                    {
+                        "title": "House Garlic Bread",
+                        "price": "4"
+                    },
+                    {
+                        "title": "House Garlic Bread with Cheese",
+                        "price": "5"
+                    },
+                    {
+                        "title": "House Garlic Bread with Cheese and Scratch Pesto",
+                        "price": "6"
+                    }
+                ]
+            },
+            {
+                "id": "pasta",
+                "title": "Pasta for Two",
+                "choices": [
+                    "pasta",
+                    "sauce",
+                    "pasta_add_ons"
+                ],
+                "products": [
+                    {
+                        "title": "Your Choice of Pasta and Sauce",
+                        "price": "12"
+                    }
+                ]
+            },
+            {
+                "id": "pizza",
+                "title": "PIZZA",
+                "choices": [
+                    "crust"
+                ],
+                "products": [
+                    {
+                        "title": "House Cheese Pizza",
+                        "description":"",
+                        "price": "21"
+                    },
+                    {
+                        "title": "125 Pepperoni Pizza",
+                        "description":"",
+                        "price": "23"
+                    },
+                    {
+                        "title": "Hawaiian",
+                        "description": "(Pineapple & Ham)",
+                        "price": "25"
+                    },
+                    {
+                        "title": "Margherita",
+                        "description": "(Tomato base, fresh mozzarella, basil, dash of olive oil)",
+                        "price": "25"
+                    },
+                    {
+                        "title": "Italian Garden",
+                        "description": "(Tomato base, roasted broccoli, artichoke hearts, mushrooms, garlic cloves, roasted peppers, mozzarella)",
+                        "price": "28"
+                    },
+                    {
+                        "title": "Meat Lovers",
+                        "description": "(Tomato base, pepperoni, sausage, meatballs, bacon, ham, mozzarella)",
+                        "price": "28"
+                    },
+                    {
+                        "title": "Sausage Pepper Onion",
+                        "description": "(Tomato base, roasted Italian sausage, roasted peppers, red onion, mozzarella)",
+                        "price": "27"
+                    },
+                    {
+                        "title": "Bacon Garlic Arugula",
+                        "description": "(Garlic cream base, roasted bacon, arugula, white truffle oil, mozzarella)",
+                        "price": "27"
+                    },
+                    {
+                        "title": "Blackened Chicken",
+                        "description": "(Garlic cream base, house blackened chicken, roasted bacon, red onion, mozzarella)",
+                        "price": "27"
+                    },
+                    {
+                        "title": "Lamb Sausage",
+                        "description": "(Garlic cream base, Mediterranean lamb sausage, fresh herb blend, pickled red onion, black olives, feta cheese, mozzarella)",
+                        "price": "27"
+                    },
+                    {
+                        "title": "Tre Ingredienti (pick three toppings)",
+                        "description": "(Garlic cream base, Mediterranean lamb sausage, fresh herb blend, pickled red onion, black olives, feta cheese, mozzarella)",
+                        "price": "21",
+                        "options": ["ingredients"]
+                    }
+                ]
+            },
+            {
+                "id": "dessert",
+                "title": "DESSERT",
+                "products": [
+                    {
+                        "title": "Slice of classic New York Cheesecake with Choice of Compote",
+                        "choices": ["dessert_compote"],
+                        "price": "7.5"
+                    },
+                    {
+                        "title": "Two Large Cannoli with Sweet Mascarpone and Creme Anglaise",
+                        "description": "(Crispy cookie stuffed with sweetened ricotta and mascarpone cheese, chocolate and crepe sauce)",
+                        "price": "7.5"
+                    },
+                    {
+                        "title": "Large Bread Pudding with Bourbon Caramel and Creme Anglaise",
+                        "description": "(Sweetened baked custard with a rich bourbon caramel sauce)",
+                        "price": "7.5"
+                    }
+                ]
+            }
+        ]
+    };
+
+    document.getElementById("menu").innerHTML = Categories(MenuData);
+
+</script>
+</html>
