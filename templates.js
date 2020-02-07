@@ -66,9 +66,13 @@ function Product(menuData, product){
     return `
 <div class="product">
 <div class="product-title">${product.title}</div>
+<div class="price">${Price(product)}</div>
+<div class="product-image" 
+style="background-image-align:center;background-image:url('${Image(product)}')"
+onclick='if (this.classList.contains("selected")){this.classList.remove("selected")}else{this.classList.add("selected")}'></div>
 <div class="product-description">${Description(product)}</div>
 ${output.length ? output.join("\n") : ""}
-<div class="price">${Price(product)}</div>
+
 </div>
 `;
 }
@@ -102,6 +106,13 @@ function Description(item){
  */
 function Price(item){
     return item.price ? `${item.price}<br>` : ""
+}
+
+/**
+ * @return {string}
+ */
+function Image(item){
+    return item.image ? `images/${item.image}` : "1x1.png"
 }
 
 /**

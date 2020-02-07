@@ -2,16 +2,210 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f3177ae-7550-42de-9e0c-ea60f7fd56fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/79705847_570173443767712_6943768706294084903_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1x1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Bolognese.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Caesar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Cavatappi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Cheesecake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Garden_Salad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Garden_salad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Panzanilla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/Bolognese.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/Caesar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/Cavatappi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/Cheesecake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/Garden Salad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/Garden salad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/Panzanilla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/Ravioli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/Smoked Tomato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/White bean ragu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/bacon arugula.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/blackened chicken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/bolonaise2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/bread pudding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/breadpudding 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/cannoli2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/canoli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/carbonara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/carbonara2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/carmines-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/carmines-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/garden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/hawaiian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/lamb sausage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/margarita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/meat lovers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/panzanilla 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/penne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/pepperoni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/pesto 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/pesto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/primaveraverdua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/primaveraverdua2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/red sauce 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/red sauce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/sausage pepper adn onion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/smoked tomato2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 2mb/white bean 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/Bolognese.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/Caesar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/Cavatappi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/Cheesecake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/Garden Salad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/Garden salad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/Panzanilla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/Ravioli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/Smoked Tomato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/White bean ragu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/bacon arugula.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/blackened chicken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/bolonaise2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/bread pudding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/breadpudding 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/cannoli2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/canoli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/carbonara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/carbonara2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/carmines-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/carmines-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/garden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/hawaiian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/lamb sausage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/margarita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/meat lovers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/panzanilla 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/penne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/pepperoni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/pesto 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/pesto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/primaveraverdua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/primaveraverdua2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/red sauce 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/red sauce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/sausage pepper adn onion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/smoked tomato2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos 5mb/white bean 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/Bolognese.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/Caesar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/Cavatappi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/Cheesecake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/Garden Salad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/Garden salad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/Panzanilla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/Ravioli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/Smoked Tomato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/White bean ragu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/bacon arugula.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/blackened chicken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/bolonaise2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/bread pudding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/breadpudding 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/cannoli2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/canoli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/carbonara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/carbonara2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/carmines-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/carmines-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/garden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/hawaiian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/lamb sausage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/margarita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/meat lovers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/panzanilla 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/penne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/pepperoni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/pesto 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/pesto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/primaveraverdua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/primaveraverdua2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/red sauce 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/red sauce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/sausage pepper adn onion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/smoked tomato2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Photos Web/white bean 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Ravioli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Smoked_Tomato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/White_bean_ragu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bacon_arugula.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blackened_chicken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bolonaise2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bread_pudding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/breadpudding_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cannoli2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/canoli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carbonara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carbonara2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carmines-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/carmines-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/garden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hawaiian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lamb_sausage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/margarita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/meat_lovers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/Bolognese.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/Caesar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/Cavatappi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/Cheesecake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/Garden Salad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/Garden salad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/Panzanilla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/Ravioli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/Smoked Tomato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/White bean ragu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/bacon arugula.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/blackened chicken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/bolonaise2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/bread pudding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/breadpudding 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/cannoli2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/canoli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/carbonara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/carbonara2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/carmines-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/carmines-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/garden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/hawaiian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/lamb sausage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/margarita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/meat lovers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/panzanilla 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/penne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/pepperoni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/pesto 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/pesto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/primaveraverdua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/primaveraverdua2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/red sauce 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/red sauce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/sausage pepper adn onion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/smoked tomato2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original Carmines photos 10mb/white bean 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/panzanilla_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/penne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pepperoni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pesto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pesto_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/primaveraverdua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/primaveraverdua2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/red_sauce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/red_sauce_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sausage_pepper_adn_onion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/smoked_tomato2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white_bean_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.html" beforeDir="false" afterPath="$PROJECT_DIR$/old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +221,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -57,7 +252,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,9 +263,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://54.213.157.226/carmines/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/index.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -98,8 +311,28 @@
       <workItem from="1576020692822" duration="1374000" />
       <workItem from="1576033670238" duration="137000" />
       <workItem from="1576033825858" duration="1288000" />
-      <workItem from="1576035468537" duration="116000" />
+      <workItem from="1576035468537" duration="6321000" />
+      <workItem from="1576427696239" duration="36000" />
+      <workItem from="1576427747603" duration="489000" />
+      <workItem from="1576428664090" duration="4749000" />
+      <workItem from="1576757396689" duration="359000" />
+      <workItem from="1577062273636" duration="25000" />
+      <workItem from="1577676384617" duration="3604000" />
+      <workItem from="1577830448538" duration="6467000" />
+      <workItem from="1579214489954" duration="348000" />
+      <workItem from="1579474581474" duration="87000" />
+      <workItem from="1579825724791" duration="820000" />
+      <workItem from="1581050741887" duration="775000" />
+      <workItem from="1581114343410" duration="1183000" />
     </task>
+    <task id="LOCAL-00001" summary="split files">
+      <created>1576035646359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576035646359</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,16 +340,36 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="split files" />
+    <option name="LAST_COMMIT_MESSAGE" value="split files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="205" key="#Options" timestamp="1576035583132">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="420" y="171" key="#Options" timestamp="1576446879161">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="420" y="171" key="#Options/0.0.1440.900@0.0.1440.900" timestamp="1576446879161" />
     <state x="560" y="205" key="#Options/0.0.1920.1080@0.0.1920.1080" timestamp="1576035583132" />
+    <state x="318" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576446986401">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="318" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576446986401" />
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576036277406" />
     <state x="648" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576033736514">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="648" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576033736514" />
+    <state x="727" y="219" key="#index.html" timestamp="1576036055605">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="727" y="219" key="#index.html/0.0.1920.1080@0.0.1920.1080" timestamp="1576036055605" />
+    <state x="543" y="142" key="CommitChangelistDialog2" timestamp="1581115819196">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="543" y="142" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1581115819196" />
+    <state x="100" y="100" width="824" height="440" key="DirDiffDialog" timestamp="1578009973776">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state x="100" y="100" width="824" height="440" key="DirDiffDialog/0.0.1024.640@0.0.1024.640" timestamp="1578009973776" />
     <state x="574" y="325" key="EditFileWatcherDialog" timestamp="1576034300325">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -129,16 +382,115 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="511" y="163" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1576030015953" />
+    <state width="982" height="190" key="GridCell.Tab.0.bottom" timestamp="1577724195973">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.0.bottom/0.0.1024.640@0.0.1024.640" timestamp="1577724195973" />
+    <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576555343256" />
+    <state width="939" height="366" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608886" />
+    <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1576756278069" />
+    <state width="982" height="190" key="GridCell.Tab.0.center" timestamp="1577724195972">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.0.center/0.0.1024.640@0.0.1024.640" timestamp="1577724195972" />
+    <state width="1398" height="294" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576555343255" />
+    <state width="939" height="366" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608885" />
+    <state width="1398" height="294" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1576756278066" />
+    <state width="982" height="190" key="GridCell.Tab.0.left" timestamp="1577724195972">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.0.left/0.0.1024.640@0.0.1024.640" timestamp="1577724195972" />
+    <state width="1398" height="294" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576555343254" />
+    <state width="939" height="366" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608884" />
+    <state width="1398" height="294" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1576756278065" />
+    <state width="982" height="190" key="GridCell.Tab.0.right" timestamp="1577724195973">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.0.right/0.0.1024.640@0.0.1024.640" timestamp="1577724195973" />
+    <state width="1398" height="294" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576555343255" />
+    <state width="939" height="366" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608886" />
+    <state width="1398" height="294" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1576756278068" />
+    <state width="982" height="190" key="GridCell.Tab.1.bottom" timestamp="1577724195975">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.1.bottom/0.0.1024.640@0.0.1024.640" timestamp="1577724195975" />
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576555343258" />
+    <state width="939" height="366" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608888" />
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1576756278074" />
+    <state width="982" height="190" key="GridCell.Tab.1.center" timestamp="1577724195974">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.1.center/0.0.1024.640@0.0.1024.640" timestamp="1577724195974" />
+    <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576555343257" />
+    <state width="939" height="366" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608887" />
+    <state width="1398" height="294" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1576756278072" />
+    <state width="982" height="190" key="GridCell.Tab.1.left" timestamp="1577724195974">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.1.left/0.0.1024.640@0.0.1024.640" timestamp="1577724195974" />
+    <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576555343256" />
+    <state width="939" height="366" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608886" />
+    <state width="1398" height="294" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1576756278071" />
+    <state width="982" height="190" key="GridCell.Tab.1.right" timestamp="1577724195974">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.1.right/0.0.1024.640@0.0.1024.640" timestamp="1577724195974" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576555343257" />
+    <state width="939" height="366" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608887" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1576756278073" />
+    <state width="982" height="190" key="GridCell.Tab.2.bottom" timestamp="1577724195976">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.2.bottom/0.0.1024.640@0.0.1024.640" timestamp="1577724195976" />
+    <state width="1398" height="294" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576555343259" />
+    <state width="939" height="366" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608890" />
+    <state width="1398" height="294" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1576756278079" />
+    <state width="982" height="190" key="GridCell.Tab.2.center" timestamp="1577724195976">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.2.center/0.0.1024.640@0.0.1024.640" timestamp="1577724195976" />
+    <state width="1398" height="294" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1576555343259" />
+    <state width="939" height="366" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608889" />
+    <state width="1398" height="294" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1576756278077" />
+    <state width="982" height="190" key="GridCell.Tab.2.left" timestamp="1577724195975">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.2.left/0.0.1024.640@0.0.1024.640" timestamp="1577724195975" />
+    <state width="1398" height="294" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1576555343258" />
+    <state width="939" height="366" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608888" />
+    <state width="1398" height="294" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1576756278075" />
+    <state width="982" height="190" key="GridCell.Tab.2.right" timestamp="1577724195976">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state width="982" height="190" key="GridCell.Tab.2.right/0.0.1024.640@0.0.1024.640" timestamp="1577724195976" />
+    <state width="1398" height="294" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1576555343259" />
+    <state width="939" height="366" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576079608889" />
+    <state width="1398" height="294" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1576756278078" />
     <state x="461" y="179" key="SettingsEditor" timestamp="1576033653162">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1576033653162" />
-    <state x="529" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1576035471057">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1576035649444">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="529" y="334" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576033830874" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1576035649444" />
+    <state x="353" y="515" key="com.intellij.ide.util.TipDialog" timestamp="1581114344625">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="282" y="188" key="com.intellij.ide.util.TipDialog/0.0.1024.640@0.0.1024.640" timestamp="1579474766596" />
+    <state x="397" y="265" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577062291902" />
+    <state x="353" y="515" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581114344625" />
     <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1575912393094" />
     <state x="529" y="334" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1576035471057" />
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576428897653">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1576428897652" />
+    <state x="267" y="151" width="689" height="486" key="find.popup" timestamp="1577676853114">
+      <screen x="0" y="0" width="1024" height="640" />
+    </state>
+    <state x="267" y="151" width="689" height="486" key="find.popup/0.0.1024.640@0.0.1024.640" timestamp="1577676853114" />
+    <state x="375" y="212" width="689" height="476" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1576429511922" />
     <state x="1962" y="519" width="710" height="293" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1575922757403">
       <screen x="1440" y="-157" width="3008" height="1669" />
     </state>

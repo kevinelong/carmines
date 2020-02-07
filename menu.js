@@ -155,16 +155,19 @@ let MenuData = {
         {
           "title": "Caesar",
           "description": "(Classic Caesar with garlic & anchovy dressing, romaine lettuce and toasted crouton)",
+          "image": "Caesar.jpg",
           "price": "10.00"
         },
         {
           "title": "Italian Garden",
           "description": "(Mixed greens, pickled red onions, tomatoes, black olives, cucumbers and a house red vinaigrette)",
+          "image": "Garden_Salad.jpg",
           "price": "10.00"
         },
         {
           "title": "Panzanella with Spinach",
           "description": "(Toasted bread salad, with tomato red wine vinaigrette, pickled red onion, artichoke hearts, crispy pepperoni, parmesan cheese and pesto)",
+          "image": "Panzanilla.jpg",
           "price": "10.00"
         }
       ]
@@ -209,6 +212,7 @@ let MenuData = {
       "products": [
         {
           "title": "Your Choice of Pasta and Sauce",
+          "image": "smoked_tomato2.jpg",
           "price": "12.00"
         }
       ]
@@ -216,6 +220,7 @@ let MenuData = {
     {
       "id": "pizza",
       "title": "PIZZA",
+      "image": "pepperoni.jpg",
       "choices": [
         "crust"
       ],
@@ -227,52 +232,61 @@ let MenuData = {
         },
         {
           "title": "125 Pepperoni Pizza",
+          "image": "pepperoni.jpg",
           "description":"",
           "price": "23.00"
         },
         {
           "title": "Hawaiian",
           "description": "(Pineapple & Ham)",
+          "image": "hawaiian.jpg",
           "price": "25.00"
         },
         {
           "title": "Margherita",
           "description": "(Tomato base, fresh mozzarella, basil, dash of olive oil)",
+          "image": "margarita.jpg",
           "price": "25.00"
         },
         {
           "title": "Italian Garden",
           "description": "(Tomato base, roasted broccoli, artichoke hearts, mushrooms, garlic cloves, roasted peppers, mozzarella)",
+          "image": "garden.jpg",
           "price": "28.00"
         },
         {
           "title": "Meat Lovers",
           "description": "(Tomato base, pepperoni, sausage, meatballs, bacon, ham, mozzarella)",
+          "image": "meat_lovers.jpg",
           "price": "28.00"
         },
         {
           "title": "Sausage Pepper Onion",
           "description": "(Tomato base, roasted Italian sausage, roasted peppers, red onion, mozzarella)",
+          "image": "sausage_pepper_adn_onion.jpg",
           "price": "27.00"
         },
         {
           "title": "Bacon Garlic Arugula",
           "description": "(Garlic cream base, roasted bacon, arugula, white truffle oil, mozzarella)",
-          "price": "27.00"
+          "price": "27.00",
+          "image": "bacon_arugula.jpg"
         },
         {
           "title": "Blackened Chicken",
           "description": "(Garlic cream base, house blackened chicken, roasted bacon, red onion, mozzarella)",
+          "image": "blackened_chicken.jpg",
           "price": "27.00"
         },
         {
           "title": "Lamb Sausage",
           "description": "(Garlic cream base, Mediterranean lamb sausage, fresh herb blend, pickled red onion, black olives, feta cheese, mozzarella)",
+          "image": "lamb_sausage.jpg",
           "price": "27.00"
         },
         {
-          "title": "Tre Ingredienti (pick three toppings)",
-          "description": "(Garlic cream base, Mediterranean lamb sausage, fresh herb blend, pickled red onion, black olives, feta cheese, mozzarella)",
+          "title": "Tre Ingredienti",
+          "description": "(pick three toppings)",
           "price": "21.00",
           "options": ["ingredients"]
         }
@@ -285,16 +299,19 @@ let MenuData = {
         {
           "title": "Slice of classic New York Cheesecake with Choice of Compote",
           "choices": ["dessert_compote"],
-          "price": "7.5"
+          "image": "Cheesecake.jpg",
+          "price": "7.50"
         },
         {
           "title": "Two Large Cannoli with Sweet Mascarpone and Creme Anglaise",
           "description": "(Crispy cookie stuffed with sweetened ricotta and mascarpone cheese, chocolate and crepe sauce)",
+          "image": "canoli.jpg",
           "price": "7.50"
         },
         {
           "title": "Large Bread Pudding with Bourbon Caramel and Creme Anglaise",
           "description": "(Sweetened baked custard with a rich bourbon caramel sauce)",
+          "image": "bread_pudding.jpg",
           "price": "7.50"
         }
       ]
