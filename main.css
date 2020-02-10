@@ -128,7 +128,7 @@ body > * {
 
 }
 body.light #main{
-    background: #d0d0d0;
+    background: #ffffff;
     color: #222222;
 }
 .menu-title{
@@ -176,8 +176,8 @@ body.light #main{
     color: #889988;
     font-weight: bold;
 }
-.product-title.light{
-    color:black;
+body.light .product-title{
+    color:#006600;
 }
 .product-image{
     position: absolute;
@@ -207,8 +207,8 @@ body.light #main{
     font: 1.2em sans-serif;
     font-weight: bold;
 }
-.price.light{
-    color: green;
+.light .price{
+    color: #bb3333;
 }
 
 .product-description{
@@ -234,9 +234,6 @@ body.light #main{
     text-align: left;
     margin-left: 2vw;
 }
-.choices.light{
-    color:grey;
-}
 .category{
     display: flex;
     flex-wrap: wrap;
@@ -248,6 +245,7 @@ body.light #main{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
 .arrow span{
     display: block;
     width: 36px;
@@ -264,6 +262,29 @@ body.light #main{
 /*.arrow span:nth-child(3){*/
 /*    animation-delay: -0.4s;*/
 /*}*/
+body.show-menu #order-choice{
+    display:inline-block;
+}
+body.show-menu .order-container{
+    display:none;
+}
+#order-choice{
+    position:fixed;
+    top:0em;
+    right:0em;
+   /*background:rgba(0, 0, 0, 0.5);*/
+    padding: 0.3em 0.6em;
+    margin: 1vw 2vw;
+    display:none;
+}
+#footer-order-choice{
+    display:none;
+}
+
+#order-choice .order-button-link:first-of-type{
+    margin-right:1em;
+   
+}
 @keyframes animate {
     0%{
         opacity: 0;

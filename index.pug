@@ -25,12 +25,17 @@ body.light
                 img(src='images/logo.png' style='height:108px;filter: invert(0.888);')
 
             .right-frame
-                a.order-button-link(href='https://postmates.com/merchant/carmines-italian-portland')
-                    .order-button(style='')
-                        | ORDER With POSTMATES!
-                a.order-button-link(href='https://postmates.com/merchant/carmines-italian-portland')
-                    .order-button(style='')
-                        | ORDER With ChowNOW!
+                .order-container
+                    a.order-button-link(href='javascript:document.body.classList.add("show-menu")')
+                        .order-button(style='')
+                            | ORDER NOW!
+                #order-choice.hidden
+                    a.order-button-link(href='https://postmates.com/merchant/carmines-italian-portland')
+                        .order-button(style='')
+                            | POSTMATES!
+                    a.order-button-link(href='https://ordering.chownow.com/order/17809/locations')
+                        .order-button(style='')
+                            | ChowNOW!
     #main
         main
             a(href="javascript:document.documentElement.scrollTop = window.innerHeight;")
@@ -43,9 +48,17 @@ body.light
     footer
         #footer
             .left-frame
-                a.order-button-link(href='https://postmates.com/merchant/carmines-italian-portland')
-                    .order-button(style='')
-                        | ORDER ONLINE!
+                .order-container
+                    a.order-button-link(href='javascript:document.getElementById("footer-order-choice").style.display="inline-block")'
+                        .order-button(style='')
+                            | ORDER NOW!
+                #footer-order-choice
+                    a.order-button-link(href='https://postmates.com/merchant/carmines-italian-portland')
+                        .order-button(style='display:hidden;')
+                            | POSTMATES!
+                    a.order-button-link(href='https://ordering.chownow.com/order/17809/locations')
+                        .order-button(style='display:hidden;')
+                            | ChowNOW!
             .right-frame
                 #footer-tag
                     | Portland&apos;s Best Italian Food Delivery!
