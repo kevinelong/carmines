@@ -52,8 +52,8 @@ body > * {
     background:url(bg.png);
     opacity: 95%;
     box-shadow: 0vw 0vw 1vh rgba(0, 0, 0, 0.9);
-
 }
+
 .right-frame{
     padding: 0.3em 0.6em;
     margin:1vw 2vw;
@@ -102,7 +102,7 @@ body > * {
     overflow: hidden;
 }
 .order-button{
-    font: 1.1em sans-serif;
+    font: 0.8em sans-serif;
     background: darkred;
     border: 0.1vw solid rgba(255,255,255,0.85);
     display: inline-block;
@@ -128,7 +128,7 @@ body > * {
 
 }
 body.light #main{
-    background: #d0d0d0;
+    background: #ffffff;
     color: #222222;
 }
 .menu-title{
@@ -144,6 +144,11 @@ body.light #main{
     border-top: 1px solid #cccccc;
     font-weight: bold;
 }
+
+.category-title.light{
+    border-top: red;
+    border-bottom: red;
+}
 .product{
     /*flex: 1 0 auto;*/
 
@@ -158,7 +163,9 @@ body.light #main{
     vertical-align: top;
     position: relative;
     min-height: 5em;
-
+}
+.product.light{
+    border: 1px solid black;
 }
 .product-title{
     font: 1.1em sans-serif;
@@ -168,6 +175,9 @@ body.light #main{
     max-width: 75%;
     color: #889988;
     font-weight: bold;
+}
+body.light .product-title{
+    color:#006600;
 }
 .product-image{
     position: absolute;
@@ -196,7 +206,9 @@ body.light #main{
     color: #ff6666;
     font: 1.2em sans-serif;
     font-weight: bold;
-
+}
+.light .price{
+    color: #bb3333;
 }
 
 .product-description{
@@ -204,11 +216,17 @@ body.light #main{
     margin: 0.5em 0 0.5em;
     max-width: 75%;
 }
+.product-description.light{
+    color:grey;
+}
 .choice-set-title{
     font: 0.8em sans-serif;
     margin-bottom: 0.5em;
     text-align: left;
     margin-left: 1vw;
+}
+.choice-set-title.light{
+    color:black;
 }
 .choices{
     font: 0.7em sans-serif;
@@ -221,13 +239,13 @@ body.light #main{
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .arrow{
     position: absolute;
     top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
 .arrow span{
     display: block;
     width: 36px;
@@ -244,6 +262,29 @@ body.light #main{
 /*.arrow span:nth-child(3){*/
 /*    animation-delay: -0.4s;*/
 /*}*/
+body.show-menu #order-choice{
+    display:inline-block;
+}
+body.show-menu .order-container{
+    display:none;
+}
+#order-choice{
+    position:fixed;
+    top:0em;
+    right:0em;
+   /*background:rgba(0, 0, 0, 0.5);*/
+    padding: 0.3em 0.6em;
+    margin: 1vw 2vw;
+    display:none;
+}
+#footer-order-choice{
+    display:none;
+}
+
+#order-choice .order-button-link:first-of-type{
+    margin-right:1em;
+   
+}
 @keyframes animate {
     0%{
         opacity: 0;
