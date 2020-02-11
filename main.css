@@ -184,13 +184,16 @@ body.light .product-title{
     top: 2.3em;
     right: 0.75em;
     border: 1px solid #333333;
-    background: #222222;
+    background-color: #222222;
     width: 3.5em;
     height: 3.5em;
     background-image: url('banner.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 10%;
+}
+.light .product-image{
+    background-color:#ddd;
 }
 .product-image.selected {
     width: 90%;
@@ -265,23 +268,30 @@ body.light .product-title{
 body.show-menu #order-choice{
     display:inline-block;
 }
-body.show-menu .order-container{
-    display:none;
+body.show-menu #footer-order-choice{
+    display:inline-block;
 }
-#order-choice{
+body.show-menu .order-container{
+    visibility:hidden;
+}
+#order-choice, #footer-order-choice{
     position:fixed;
-    top:0em;
-    right:0em;
    /*background:rgba(0, 0, 0, 0.5);*/
     padding: 0.3em 0.6em;
     margin: 1vw 2vw;
     display:none;
 }
+#order-choice{
+    top:0em;
+    right:0em;
+}
 #footer-order-choice{
-    display:none;
+    bottom:0em;
+    left:0em;
+
 }
 
-#order-choice .order-button-link:first-of-type{
+#order-choice .order-button-link:first-of-type, #footer-order-choice .order-button-link:first-of-type{
     margin-right:1em;
    
 }

@@ -42,33 +42,39 @@ let MenuData = {
       "title": "Choice of Sauce:",
       "choices": [
         {
+          "title": "Butter Parmesan",
+          "description": "Pasta tossed in a light sauce of butter and Parmesan cheese"
+        },
+        {
           "title": "Red Sauce",
           "description": "(Classic red sauce)",
+          "price": "2.00",
           "choices": "pasta_add_ons"
         },
         {
           "title": "Primavera",
-          "description": "(A light, white wine butter sauce finished with Parmesan Reggiano and a squeeze of lemon)"
+          "description": "(A light, white wine butter sauce finished with Parmesan Reggiano and a squeeze of lemon)",
+          "price": "2.00"
         },
         {
           "title": "Bolognese",
           "description": "(Classic meat red sauce)",
-          "price": "2.00"
+          "price": "4.00"
         },
         {
           "title": "Carbonara",
           "description": "(Rich cream sauce with bacon, garlic and English peas)",
-          "price": "2.00"
+          "price": "4.00"
         },
         {
           "title": "White Bean and Sausage",
           "description": "(Ragu of slow cooked white beans, Italian sausage, fresh herbs and onions)",
-          "price": "2.00"
+          "price": "4.00"
         },
         {
           "title": "Smoked Tomato and Goat Cheese",
           "description": "(House smoked tomato sauce with fresh basil and goat cheese)",
-          "price": "2.00"
+          "price": "4.00"
         }
       ]
     },
@@ -146,7 +152,7 @@ let MenuData = {
   "categories": [
     {
       "id": "salad",
-      "title": "SALAD",
+      "title": "Salad",
       "description":"All Large",
       "choices": [
         "dressing"
@@ -198,6 +204,11 @@ let MenuData = {
         {
           "title": "House Garlic Bread with Cheese and Scratch Pesto",
           "price": "6.00"
+        },
+        {
+          "title": "Spaghetti and Meatball sub",
+          "price": "14.00",
+          "description":"A garlic toasted Hoagie roll filled with our red sauce spaghetti and our house recipe mamas meatballs."
         }
       ]
     },
@@ -266,12 +277,13 @@ let MenuData = {
           "image": "sausage_pepper_adn_onion.jpg",
           "price": "27.00"
         },
-        {
-          "title": "Bacon Garlic Arugula",
-          "description": "(Garlic cream base, roasted bacon, arugula, white truffle oil, mozzarella)",
-          "price": "27.00",
-          "image": "bacon_arugula.jpg"
-        },
+        // this option is not available on postmates site
+        // {
+        //   "title": "Bacon Garlic Arugula",
+        //   "description": "(Garlic cream base, roasted bacon, arugula, white truffle oil, mozzarella)",
+        //   "price": "27.00",
+        //   "image": "bacon_arugula.jpg"
+        // },
         {
           "title": "Blackened Chicken",
           "description": "(Garlic cream base, house blackened chicken, roasted bacon, red onion, mozzarella)",
@@ -293,8 +305,49 @@ let MenuData = {
       ]
     },
     {
+      "id": "sides",
+      "title": "Sides",
+      "products": [
+        {
+          "title": "Ranch Dressing",
+          "description": "A classic Ranch Dressing, great for dipping stuff in",
+          "price": "1.00"
+        },
+        {
+          "title": "Marinara Sauce",
+          "description": "Our house tomato sauce, great for dipping stuff in",
+          "price": "1.00"
+        },
+        {
+          "title": "Pesto",
+          "description": "Our house basil and garlic pesto sauce, great for dipping stuff in"
+        }
+      ]
+    },
+    {
+      "id": "kidsmenu",
+      "title":"Kids Menu",
+      "products": [
+        {
+          "title": "French Bread Pizza",
+          "description": "A cheesy tomato french bread pizza, kids love them",
+          "price": "6.00"
+        },
+        {
+          "title": "French Bread Pizza with Pepperoni",
+          "description": "Our chessy tomato bread with crispy wonderful pepperoni",
+          "price": "7.00"
+        },
+        {
+          "title": "Butter Noodles",
+          "description": "Spaghetti tossed in a light butter suace with Parmesan cheese",
+          "price": "6.00"
+        }
+      ]
+    },
+    {
       "id": "dessert",
-      "title": "DESSERT",
+      "title": "Dessert",
       "products": [
         {
           "title": "Slice of classic New York Cheesecake with Choice of Compote",
@@ -313,6 +366,27 @@ let MenuData = {
           "description": "(Sweetened baked custard with a rich bourbon caramel sauce)",
           "image": "bread_pudding.jpg",
           "price": "7.50"
+        }
+      ]
+    },
+    {
+      "id":"drinks",
+      "title": "Drinks",
+      "products": [
+        {
+          "title": "San Pellegrino",
+          "description": "Sparkling mineral water from Italy, 19.9 fl oz",
+          "price": "3.00"
+        },
+        {
+          "title": "Martinelli Apple Juice",
+          "description": "Gold Medal %100 Apple Juice, 10 fl oz",
+          "price": "3.00"
+        },
+        {
+          "title": "Mexican Coca-Cola",
+          "description": "Imported from Mexico, made with real cane sugar, In and old school glass bottle, 355ml",
+          "price": "3.00"
         }
       ]
     }

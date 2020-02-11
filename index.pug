@@ -29,7 +29,7 @@ body.light
                     a.order-button-link(href='javascript:document.body.classList.add("show-menu")')
                         .order-button(style='')
                             | ORDER NOW!
-                #order-choice.hidden
+                #order-choice
                     a.order-button-link(href='https://postmates.com/merchant/carmines-italian-portland')
                         .order-button(style='')
                             | POSTMATES!
@@ -49,15 +49,15 @@ body.light
         #footer
             .left-frame
                 .order-container
-                    a.order-button-link(href='javascript:document.getElementById("footer-order-choice").style.display="inline-block")'
+                    a.order-button-link(href='javascript:document.body.classList.add("show-menu")')
                         .order-button(style='')
                             | ORDER NOW!
                 #footer-order-choice
                     a.order-button-link(href='https://postmates.com/merchant/carmines-italian-portland')
-                        .order-button(style='display:hidden;')
+                        .order-button(style='')
                             | POSTMATES!
                     a.order-button-link(href='https://ordering.chownow.com/order/17809/locations')
-                        .order-button(style='display:hidden;')
+                        .order-button(style='')
                             | ChowNOW!
             .right-frame
                 #footer-tag
