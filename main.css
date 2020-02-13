@@ -30,7 +30,7 @@ body > * {
     top: 0;
     left: 0;
     right: 0;
-    padding: 0;
+    padding: .25em;
 }
 #footer{
      position: fixed;
@@ -102,15 +102,14 @@ body > * {
     overflow: hidden;
 }
 .order-button{
-    font: 0.8em sans-serif;
+    font: 0.7em sans-serif;
     background: darkred;
     border: 0.1vw solid rgba(255,255,255,0.85);
-    display: inline-block;
+    display: block;
     color:#eeeeee;
     padding: 0.3em 0.6em;
-    margin: 0;
+    margin: auto;
     box-shadow: 1vw 1vw 3vw rgba(0, 0, 0, 0.9);
-    vertical-align: center;
     font-weight: bold;
 }
 .order-button-link{
@@ -277,9 +276,12 @@ body.show-menu .order-container{
 #order-choice, #footer-order-choice{
     position:fixed;
    /*background:rgba(0, 0, 0, 0.5);*/
-    padding: 0.3em 0.6em;
-    margin: 1vw 2vw;
+    /* padding: 0.3em 0.6em; */
+    /* margin: 1vw 2vw; */
     display:none;
+    max-width:25%;
+    text-align:center;
+    vertical-align: auto;
 }
 #order-choice{
     top:0em;
@@ -292,7 +294,7 @@ body.show-menu .order-container{
 }
 
 #order-choice .order-button-link:first-of-type, #footer-order-choice .order-button-link:first-of-type{
-    margin-right:1em;
+    margin-top:1em;
    
 }
 @keyframes animate {
