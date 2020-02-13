@@ -185,7 +185,8 @@ let MenuData = {
         {
           "title": "Made from Scratch Authentic Minestrone (16 oz)",
           "description": "(Hearty broth with sausage and vegetables)",
-          "price": "7.00"
+          "price": "7.00",
+          "image": "2mb/minestrone_2mb-31.jpg"
         }
       ]
     },
@@ -195,11 +196,13 @@ let MenuData = {
       "products": [
         {
           "title": "House Garlic Bread",
-          "price": "4.00"
+          "price": "4.00",
+          "image": "2mb/garlicBread_2mb-14.jpg"
         },
         {
           "title": "House Garlic Bread with Cheese",
-          "price": "5.00"
+          "price": "5.00",
+          "image": "2mb/garlicBreadCheese_2mb-20.jpg"
         },
         {
           "title": "House Garlic Bread with Cheese and Scratch Pesto",
@@ -208,7 +211,8 @@ let MenuData = {
         {
           "title": "Spaghetti and Meatball sub",
           "price": "14.00",
-          "description":"A garlic toasted Hoagie roll filled with our red sauce spaghetti and our house recipe mamas meatballs."
+          "description":"A garlic toasted Hoagie roll filled with our red sauce spaghetti and our house recipe mamas meatballs.",
+          "image": "2mb/meatballSub_2mb-22.jpg"
         }
       ]
     },
@@ -239,7 +243,8 @@ let MenuData = {
         {
           "title": "House Cheese Pizza",
           "description":"",
-          "price": "21.00"
+          "price": "21.00",
+          "image":"2mb/cheesePizza_2mb-9.jpg"
         },
         {
           "title": "125 Pepperoni Pizza",
@@ -331,12 +336,14 @@ let MenuData = {
         {
           "title": "French Bread Pizza",
           "description": "A cheesy tomato french bread pizza, kids love them",
-          "price": "6.00"
+          "price": "6.00",
+          "image":"2mb/FBpizza_2mb-30.jpg"
         },
         {
           "title": "French Bread Pizza with Pepperoni",
           "description": "Our chessy tomato bread with crispy wonderful pepperoni",
-          "price": "7.00"
+          "price": "7.00",
+          "image":"2mb/FBpizzaPep_2mb-29.jpg"
         },
         {
           "title": "Butter Noodles",
@@ -376,17 +383,20 @@ let MenuData = {
         {
           "title": "San Pellegrino",
           "description": "Sparkling mineral water from Italy, 19.9 fl oz",
-          "price": "3.00"
+          "price": "3.00",
+          "image":"2mb/sanPellegrino_2mb-8.jpg"
         },
         {
           "title": "Martinelli Apple Juice",
           "description": "Gold Medal %100 Apple Juice, 10 fl oz",
-          "price": "3.00"
+          "price": "3.00",
+          "image":"2mb/martinelli_2mb-1.jpg"
         },
         {
           "title": "Mexican Coca-Cola",
           "description": "Imported from Mexico, made with real cane sugar, In and old school glass bottle, 355ml",
-          "price": "3.00"
+          "price": "3.00",
+          "image":"2mb/mexCola_2mb.jpg"
         }
       ]
     }
